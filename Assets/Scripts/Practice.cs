@@ -39,8 +39,8 @@ public class Practice : MonoBehaviour //Class Declaration
     // hit enter after writing long threads it'll syntax the sentences and the sentence will end on whatever the last word of the sentence was.
 
     //THESE ARE DATATYPES?
-    public Light light; 
-    public Transform
+    public Light theLightThatShinesFromTheSky;
+    public Transform theThingThatLetsUsMoveAround;
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +48,7 @@ public class Practice : MonoBehaviour //Class Declaration
 
         Debug.Log("The starting nummber for numb1 is: " + numb1);
         numb1 = numb1 + 1;
-        Debug.Log("The end number for numb1 after adding 1 is: " +numb1);
+        Debug.Log("The end number for numb1 after adding 1 is: " + numb1);
 
 
     }

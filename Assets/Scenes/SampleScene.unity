@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 256443680}
   - component: {fileID: 256443679}
   - component: {fileID: 256443678}
+  - component: {fileID: 256443682}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -230,6 +231,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256443682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256443677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6521d28321560d43b6e5a77fa538542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +468,8 @@ MonoBehaviour:
   venusaur: 99
   monsters: Stinky pokemon yappig to much, sentence can be long. Im entering random
     sentences here to help with demo stuff
+  theLightThatShinesFromTheSky: {fileID: 0}
+  theThingThatLetsUsMoveAround: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
