@@ -40,7 +40,7 @@ public class Practice : MonoBehaviour //Class Declaration
 
     //THESE ARE DATATYPES?
     public Light light; 
-    public Transform;
+    public Transform
 
     // Start is called before the first frame update
     void Start()
