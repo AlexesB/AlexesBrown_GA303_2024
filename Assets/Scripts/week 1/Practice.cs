@@ -37,7 +37,7 @@ public class Practice : MonoBehaviour //Class Declaration
 
     public string monsters = "Stinky pokemon yappig to much, sentence can be long. Im entering random sentences here to help with demo stuff";
     // hit enter after writing long threads it'll syntax the sentences and the sentence will end on whatever the last word of the sentence was.
-
+    //Debug.Log(nolan.ToString() + west.ToString() + west.ToString() + chen.ToString() + bradford.ToString() + lopez.ToString() "is a fun show to watch");
     //THESE ARE DATATYPES?
     public Light theLightThatShinesFromTheSky;
     public Transform theThingThatLetsUsMoveAround;
