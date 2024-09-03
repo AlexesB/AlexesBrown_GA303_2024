@@ -25,7 +25,18 @@ public class New_Practice1 : MonoBehaviour
     {
         Debug.Log("The " + nolan.ToString() + west.ToString() + west.ToString() + chen.ToString() + bradford.ToString() + lopez.ToString() + " is the show I'm currently enjoying!");
 
-      
+        Debug.Log("Starting total is " + denji);
+        denji = denji + pochita;
+        Debug.Log("Added " + pochita + " to total, making total " + denji);
+
+        Debug.Log("The new starting total is " + denji);
+        denji = denji * power - chainsaw;
+        Debug.Log("Multiplied " + power + " and subtracted " + chainsaw + " to total, making total " + denji);
+
+        Debug.Log("new total is " + denji);
+        denji = denji / power + chainsaw;
+        Debug.Log("Divided " + power + " to the total and added " + chainsaw + " to get " + denji);
+
     }
     // Update is called once per frame
     void Update()
