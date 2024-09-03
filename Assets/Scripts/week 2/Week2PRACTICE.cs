@@ -6,7 +6,8 @@ public class Week2PRACTICE : MonoBehaviour
 {
     public GameObject superCoolBallObject;
     public int counter = 0;
-
+    
+   
 
     // Start is called before the first frame update
     void Start()
