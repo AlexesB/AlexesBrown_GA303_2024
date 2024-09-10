@@ -13,6 +13,9 @@ public class Refdscript : MonoBehaviour
     {
         Debug.Log(rock + paper + scissors);
 
+        //if u want to ref a component have public Light "name of light" ;
+        //public SomeOtherScript [insert name here]
+        //"name of light".
     }
 
     // Update is called once per frame
