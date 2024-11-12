@@ -9,21 +9,11 @@ public class Canonfire : MonoBehaviour
     public float speed = 500f;
 
 
-    public void Firecannon()
+    public void FireCannon()
     {
         GameObject go = Instantiate(projectile, SpawnPosition.position, SpawnPosition.rotation);
         go.GetComponent<Rigidbody>().AddForce(go.transform.forward * speed);
 
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

@@ -21,10 +21,10 @@ public class Counter01 : MonoBehaviour
     void OnCollisionEnter(Collision points)
     {
         
-        Debug.Log("+1!!");
+        Debug.Log("Suprise!");
         if(points.collider.gameObject.tag == "Pill")
         {
-            Debug.Log("Bye Bye!");
+            Debug.Log("nobody needs to know...");
             Destroy(this.gameObject);
 
         }
