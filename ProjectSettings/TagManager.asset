@@ -8,11 +8,12 @@ TagManager:
   - Pill
   - Cannon
   - BayHarbor
+  - ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
   - 
